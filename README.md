@@ -2,7 +2,7 @@
   <h1>Nui Loader</h1>
 </div>
 
-<h2 align="center">介绍</h2>
+### 介绍
 nui-loader是Nui框架兼容webpack的转换器，能够将框架自身特性转换为webpack可识别的语法。
 
 <h2 align="center">安装</h2>
@@ -11,7 +11,7 @@ nui-loader是Nui框架兼容webpack的转换器，能够将框架自身特性转
 npm install --save-dev nui-loader
 ```
 
-<h2 align="center">使用</h2>
+### 使用
 
 **webpack.config.js**
 ```js
@@ -37,7 +37,7 @@ module.exports = {
 }
 ```
 
-<h2 align="center">选项参数</h2>
+### 选项参数
 
 <table style="width:100%; text-align:left;">
     <tr>
@@ -66,7 +66,7 @@ module.exports = {
     </tr>
 </table>
 
-<h2 align="center">注意事项</h2>
+### 注意事项
 
 编写模块代码时，4个工厂函数require/imports/extend/renders中除了require，其它三个必须加this.或者module.前缀，否则转换器将无法识别
 ```js
