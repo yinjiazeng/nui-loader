@@ -20,12 +20,51 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: ['nui-loader']
+        use: {
+          loader:'nui-loader',
+          options:{
+            paths:{
+              lib:'/script/lib/jquery/'
+            },
+            alias:{
+              jquery:'{lib}/jquery.js'
+            }
+          }
+        }
       }
     ]
   }
 }
 ```
+
+<h2 align="center">选项参数</h2>
+
+<table style="width:100%; text-align:left;">
+    <tr>
+        <th width="100">参数</th>
+        <th width="100">类型</th>
+        <th width="100">默认值</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+      <td>base</td>
+      <td>{String}</td>
+      <td>node_modules所在目录</td>
+      <td>项目根目录</td>
+    </tr>
+    <tr>
+      <td>paths</td>
+      <td>{Object}</td>
+      <td>null</td>
+      <td>路径别名集合</td>
+    </tr>
+    <tr>
+      <td>alias</td>
+      <td>{Object}</td>
+      <td>null</td>
+      <td>模块别名集合，可使用{名称}访问路径别名</td>
+    </tr>
+</table>
 
 <h2 align="center">注意事项</h2>
 
