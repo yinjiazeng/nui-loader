@@ -1,6 +1,4 @@
-<div align="center">
-  <h1>Nui Loader</h1>
-</div>
+<h1 align="center">Nui Loader</h1>
 
 ### 介绍
 nui-loader是Nui框架兼容webpack的转换器，能够将框架自身特性转换为webpack可识别的语法。
