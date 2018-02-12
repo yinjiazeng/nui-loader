@@ -66,7 +66,7 @@ module.exports = {
 
 ### 注意事项
 
-编写模块代码时，4个工厂函数require/imports/extend/renders中除了require，其它三个必须加this.或者module.前缀，否则转换器将无法识别
+编写模块代码时，4个工厂函数require/imports/extend/renders中除了require，其它三个必须加this.或者module.前缀，否则解释器无法识别
 ```js
 Nui.define(function(){
   var module = this
