@@ -5,7 +5,7 @@
 ### 介绍
 nui-loader是Nui框架兼容webpack的转换器，能够将框架自身特性转换为webpack可识别的语法。
 
-<h2 align="center">安装</h2>
+### 安装
 
 ```bash
 npm install --save-dev nui-loader
