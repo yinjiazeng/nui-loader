@@ -62,6 +62,12 @@ module.exports = {
       <td>null</td>
       <td>模块别名集合，可使用{名称}访问路径别名</td>
     </tr>
+    <tr>
+      <td>url</td>
+      <td>{String}</td>
+      <td>null</td>
+      <td>参数配置地址，接收一个绝地路径，文件内容必须包含Nui.config({paths:{...}, alias:{...}})，设置后无需在loader参数中配置paths以及alias。</td>
+    </tr>
 </table>
 
 ### 注意事项
