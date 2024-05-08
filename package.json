@@ -1,0 +1,29 @@
+{
+  "name": "nui-loader",
+  "version": "1.0.8",
+  "description": "nui框架模块解释器，将模块解析成webpack可识别的模块",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yinjiazeng",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinjiazeng/nui-loader.git"
+  },
+  "keywords": [
+    "nui",
+    "loader"
+  ],
+  "bugs": {
+    "url": "https://github.com/yinjiazeng/nui-loader/issues"
+  },
+  "homepage": "https://github.com/yinjiazeng/nui-loader#readme",
+  "_from": "nui-loader@1.0.7",
+  "_resolved": "http://registry.npm.taobao.org/nui-loader/download/nui-loader-1.0.7.tgz",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {}
+}
